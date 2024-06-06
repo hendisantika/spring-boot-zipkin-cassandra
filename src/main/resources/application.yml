@@ -1,0 +1,10 @@
+spring.application.name: spring-boot-zipkin-cassandra
+server:
+  port: 8080
+
+spring:
+  application:
+    name: BOOK-SERVICE
+  zipkin:
+    enabled: true
+    baseUrl: http://127.0.0.1:9411/
