@@ -2,6 +2,7 @@ package id.my.hendisantika.zipkincassandra.dto;
 
 import id.my.hendisantika.zipkincassandra.entity.Book;
 import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
 
 /**
