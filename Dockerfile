@@ -1,4 +1,4 @@
-FROM maven:3.9.7-amazoncorretto-21 AS maven
+FROM maven:3.9.8-amazoncorretto-21 AS maven
 LABEL authors="hendisantika"
 LABEL MAINTAINER="hendisantika@yahoo.co.id"
 

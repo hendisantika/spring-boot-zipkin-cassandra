@@ -40,7 +40,7 @@ public class BookController {
 
     @GetMapping()
     public ResponseEntity<?> getAllBooks() {
-        List<BookDto> bookDtoList = new ArrayList<BookDto>();
+        List<BookDto> bookDtoList = new ArrayList<>();
         books.stream().forEach(item -> {
             BookDto bookDto = BookMapper.INSTANCE.bookEntityToDto(item);
             bookDtoList.add(bookDto);

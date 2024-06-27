@@ -2,7 +2,6 @@ package id.my.hendisantika.zipkincassandra.dto;
 
 import id.my.hendisantika.zipkincassandra.entity.Book;
 import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
 
 /**
@@ -20,8 +19,8 @@ public interface BookMapper {
 
     BookMapper INSTANCE = Mappers.getMapper(BookMapper.class);
 
-    @Mapping(source = "id", target = "id")
-    @Mapping(source = "bookName", target = "bookName")
-    @Mapping(source = "writer", target = "writer")
+    //    @Mapping(source = "id", target = "id")
+//    @Mapping(source = "bookName", target = "bookName")
+//    @Mapping(source = "writer", target = "writer")
     BookDto bookEntityToDto(Book book);
 }

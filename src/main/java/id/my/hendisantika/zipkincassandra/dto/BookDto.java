@@ -15,10 +15,10 @@ import lombok.Setter;
  * Time: 07:15
  * To change this template use File | Settings | File Templates.
  */
-@AllArgsConstructor
-@NoArgsConstructor
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class BookDto {
     private Long id;
     private String bookName;
